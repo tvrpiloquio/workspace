@@ -1,0 +1,25 @@
+switch (x) {
+        case y  ...  z: istruzione;               i " ... " raffigurano un intervallo, il fatto che 
+        case y2 ... z2: istruzione;               la variabile è compresa tra y e z.
+        case y3 ... z3: istruzione;
+        case y4 ... z4: istruzione;
+        case y5 ... z5: istruzione;
+        case y6 ... z6: istruzione:
+}
+
+
+
+switch (x) {
+        case y  ...  z: istruzione;
+                            break;                  break interrompe la catena, dato che una volta 
+        case y2 ... z2: istruzione;                 entrato in un ramo, eseguirebbe tutte le istruzioni
+                            break;                  dei rami inferiori.
+        case y3 ... z3: istruzione;
+                            break;
+        case y4 ... z4: istruzione;
+                            break;
+        case y5 ... z5: istruzione;
+                            break;
+        case y6 ... z6: istruzione;
+                            break;
+}

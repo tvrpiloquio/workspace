@@ -1,0 +1,7 @@
+APRIRE TERMINALE DI SISTEMA
+cd Desktop
+cd workspace 
+gcc -o ./x ./x.c o g++ -o ./x ./x.cpp
+
+gcc SE IL PROGRAMMA E' C 
+g++ SE IL PROGRAMMA E' C++
